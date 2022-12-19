@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c9549c4-17ca-42c1-8fc3-86ab9e76a453" name="Changes" comment="adding WebAndConfigurationApplication" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Iwp9iWX3REctUNidygOlQkMJF5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Spring learing projects/SpringBootInDetails/springBootInDetails/src/main/java/com/spring_boot_learning.webAndConfiguration&quot;,
+    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;03f975bdb559ca0f7ecdef80f8e2d49e&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Spring learing projects\SpringBootInDetails\springBootInDetails\src\main\java\com\spring_boot_learning.webAndConfiguration" />
+      <recent name="D:\Spring learing projects\Core\core\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring learing projects\Core\core\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.spring_boot_learning.core" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring_boot_learning.webAndConfiguration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebAndConfigurationApplication">
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springBootInDetails" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring_boot_learning.core.CoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreBeanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBootInDetails" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring_boot_learning.coreBeans.CoreBeanApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring_boot_learning.coreBeans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebAndConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBootInDetails" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring_boot_learning.webAndConfiguration.WebAndConfigurationApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring_boot_learning.webAndConfiguration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebAndConfigurationApplication" />
+        <item itemvalue="Spring Boot.CoreBeanApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c9549c4-17ca-42c1-8fc3-86ab9e76a453" name="Changes" comment="" />
+      <created>1671102355163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671102355163</updated>
+      <workItem from="1671102357468" duration="7243000" />
+      <workItem from="1671284763827" duration="1200000" />
+      <workItem from="1671286106882" duration="925000" />
+      <workItem from="1671287069953" duration="9141000" />
+      <workItem from="1671491816523" duration="634000" />
+    </task>
+    <task id="LOCAL-00001" summary="co complete CoreBeans and Core app">
+      <created>1671286562636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671286562636</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding WebAndConfigurationApplication">
+      <created>1671297918386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671297918386</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding WebAndConfigurationApplication">
+      <created>1671299041079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671299041079</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="co complete CoreBeans and Core app" />
+    <MESSAGE value="adding WebAndConfigurationApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding WebAndConfigurationApplication" />
+  </component>
+</project>
