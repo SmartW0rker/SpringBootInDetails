@@ -16,8 +16,10 @@ public class CourseJdbcRepository {
 
     private static String INSERT_QUERY=
         """
+            
             insert into COURSE(id,name,author)
             values(?,?,?)
+            
         """;
 
     private static String SELECT_ALL=
