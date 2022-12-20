@@ -1,8 +1,13 @@
 package com.learn_spring_boot.webapp1.course;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.math.BigInteger;
 
+@Entity
 public class Course {
+    @Id
     private BigInteger id;
     private String name;
     private String author;
