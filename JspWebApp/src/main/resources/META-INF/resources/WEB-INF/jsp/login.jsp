@@ -5,6 +5,6 @@
     <title>Log In</title>
 </head>
 <body>
-<h1>Hello Log In page!</h1>
+<h1>Hello Log In page! Welcome ${name}!</h1>
 </body>
 </html>
