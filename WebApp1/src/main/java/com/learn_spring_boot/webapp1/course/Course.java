@@ -8,11 +8,11 @@ import java.math.BigInteger;
 @Entity
 public class Course {
     @Id
-    private BigInteger id;
+    private Long id;
     private String name;
     private String author;
 
-    public Course(BigInteger id, String name, String author) {
+    public Course(Long id, String name, String author) {
         this.id = id;
         this.name = name;
         this.author = author;
@@ -21,11 +21,11 @@ public class Course {
     public Course() {
     }
 
-    public BigInteger getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(BigInteger id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

@@ -2,6 +2,7 @@ package com.learn_spring_boot.webapp1.course.jpa;
 
 import com.learn_spring_boot.webapp1.course.Course;
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -19,11 +20,17 @@ public class CourseJpaRepository {
         entityManager.persist(course);
     }
 
-    public Course findById(BigInteger id){
+    public List<Course> findAll(){
+        String query="SELECT c FROM Course AS c";
+        TypedQuery<Course> courseTypedQuery= entityManager.createQuery(query,Course.class);
+        return courseTypedQuery.getResultList();
+    }
+
+    public Course findById(Long id){
         return entityManager.find(Course.class,id);
     }
 
-    public void deleteById(BigInteger id){
+    public void deleteById(Long id){
         Course course=findById(id);
         entityManager.remove(course);
     }
