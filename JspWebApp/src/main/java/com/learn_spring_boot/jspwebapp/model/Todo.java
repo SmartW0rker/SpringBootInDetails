@@ -1,13 +1,18 @@
 package com.learn_spring_boot.jspwebapp.model;
 
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.time.LocalDate;
 
+@Entity
 public class Todo {
+    @Id
     private int id;
     private String username;
     private String description;
-    private LocalDate target;
+    private LocalDate targetDate;
     private boolean done;
 
     public Todo() {
@@ -17,7 +22,7 @@ public class Todo {
         this.id = id;
         this.username = username;
         this.description = description;
-        this.target = target;
+        this.targetDate = target;
         this.done = done;
     }
 
@@ -45,12 +50,12 @@ public class Todo {
         this.description = description;
     }
 
-    public LocalDate getTarget() {
-        return target;
+    public LocalDate getTargetDate() {
+        return targetDate;
     }
 
-    public void setTarget(LocalDate target) {
-        this.target = target;
+    public void setTargetDate(LocalDate target) {
+        this.targetDate = target;
     }
 
     public boolean isDone() {
@@ -67,7 +72,7 @@ public class Todo {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", description='" + description + '\'' +
-                ", target=" + target +
+                ", target=" + targetDate +
                 ", done=" + done +
                 '}';
     }

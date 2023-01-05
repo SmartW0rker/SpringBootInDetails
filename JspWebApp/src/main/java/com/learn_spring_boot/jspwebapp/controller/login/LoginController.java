@@ -1,5 +1,7 @@
 package com.learn_spring_boot.jspwebapp.controller.login;
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import com.learn_spring_boot.jspwebapp.service.AuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,19 +17,15 @@ public class LoginController {
 
     @Autowired
     AuthenticationService authenticationService;
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public String welcome(@RequestParam String username,@RequestParam String password, ModelMap model){
-        model.put("username",username);
-        model.put("password",username);
-        if (authenticationService.authenticate(username,password))
-            return "welcome";
-        else
-            return "login";
-
+    @RequestMapping(value="/",method = RequestMethod.GET)
+    public String gotoWelcomePage(ModelMap model) {
+        model.put("name", getLoggedinUsername());
+        return "welcome";
     }
 
-    @RequestMapping(value = "/login",method = RequestMethod.GET)
-    public String login(){
-        return "login";
+    private String getLoggedinUsername() {
+        Authentication authentication =
+                SecurityContextHolder.getContext().getAuthentication();
+        return authentication.getName();
     }
 }
